@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Negozio Sportivo"
+        android:textColor="#ffffff"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Get In.\nGet Fit.\nGet on with Life."
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"/>
+    
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        
+       <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signUp"
+            android:text="SignUp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            app:buttonColor="#39696b"
+            app:shadowColor="#000000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"/>
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_signIn"
+            android:text="SignIn"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            app:buttonColor="#39696b"
+            app:shadowColor="#000000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"/>
+
+
+    </LinearLayout>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#212121"
+        android:textColor="#ffffff"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="195dp"
+        android:background="#212121"
+        android:textColor="#ffffff"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:text="Sign Up" />
+
+
+</RelativeLayout>
